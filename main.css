@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&family=Goblin+One&family=Hi+Melody&family=Kirang+Haerang&family=Rammetto+One&family=Rowdies:wght@300;400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .collection {
+        grid-template-columns: 1fr;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info h3 {
+        margin-top: 0;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    background-color: #EDC4B3;
+}
+
+.welcome {
+    position: relative;
+    color: #EDC4B3;
+    text-shadow: #17131C 4px 4px 5px;
+    padding: 50px 20px;
+}
+
+.welcome-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(40%);
+}
+
+h1 {
+    font-family: "Goblin One", serif;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.welcome h2 {
+    font-family: "Sour Gummy", sans-serif;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#nav-links {
+    width: 80%;
+    margin: auto;
+}
+
+.bookName {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 30px;
+    color: #774936;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.142);
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+#search {
+    grid-column: 4;
+    justify-content: end;
+    padding: 8px;
+    border: #17131C 1px solid;
+    border-radius: 5px;
+}
+
+.info ul {
+    list-style: none;
+    text-align: center;
+}
+
+.info h3 {
+    margin-bottom: 0;
+}
+
+hr {
+    border: 2px solid #C38E70;
+    border-radius: 5px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+.collection article {
+    background-color: #DEAB90;
+    border-radius: 10px;
+
+}
+
+.bookCover {
+    height: 220px;
+    padding: 15px;
+    margin: auto;
+    display: block;
+}
+
+.collection p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 3px;
+}
+
+footer {
+    background-color: #251812;
+}
+
+.copyright {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.529);
+}
+
+#sign-up {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+#sign-up h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#signup-form label {
+    font-size: 18px;
+    color: #000000;
+}
+
+#signup-form input {
+    padding: 10px;
+    border: 2px solid #251812;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#signup-form button {
+    padding: 10px;
+    background-color: #251812;
+    color: #F5EED9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signup-form button:hover {
+    background-color: #B07D62;
+}

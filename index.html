@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rojan's Books</title>
+
+    <link rel="icon" href="/img/book.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="welcome">
+            <img src="/img/rey-seven-_nm_mZ4Cs2I-unsplash.jpg" alt="" class="welcome-background">
+            <h1>Rojan's Books</h1>
+            <h2>Welcome to my book collection</h2>
+
+        </div>
+
+        <div id="nav-links">
+            <nav class="info">
+                <ul id="authors">
+                    <h3>Authors</h3>
+                    <hr>
+                    <li></li>
+                </ul>
+                <ul id="Year">
+                    <h3>Year</h3>
+                    <hr>
+                    <li></li>
+                </ul>
+                <ul id="Genre">
+                    <h3>Genre</h3>
+                    <hr>
+                    <li></li>
+            </nav>
+        </div>
+    </header>
+
+    <main class="collection">
+        <article>
+            <h2 class="bookName">30</h2>
+            <img class="bookCover" alt=" cover" src="">
+            <p></p>
+        </article>
+    </main>
+
+    <section id="sign-up">
+        <h2>Sign Up to Get the Latest News!</h2>
+        <hr>
+        <form id="signup-form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="copyright">Rojan Jafarnezhad &copy; 2025</p>
+    </footer>
+
+    <script>
+        document.getElementById("signup-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+
+            const nameRegex = /^[A-Za-z\s]{2,}$/;
+
+            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+            if (!nameRegex.test(name) || !emailRegex.test(email)) {
+                document.getElementById("error-message").style.display = "block";
+            }
+            else {
+                document.getElementById("error-message").style.display = "none";
+                alert("Sign up successful!");
+            }
+        });
+    </script>
+</body>
+
+</html>
