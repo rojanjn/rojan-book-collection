@@ -65,15 +65,6 @@ h2 {
     margin: auto;
 }
 
-.bookName {
-    font-family: "Sour Gummy", sans-serif;
-    font-size: 30px;
-    color: #774936;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.142);
-    font-weight: 600;
-    text-transform: capitalize;
-    padding-top: 5px;
-}
 
 .info {
     display: grid;
@@ -111,17 +102,39 @@ hr {
     padding: 15px;
 }
 
-.collection article {
-    background-color: #DEAB90;
-    border-radius: 10px;
+.bookName {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+    color: #774936;
+    font-weight: 500;
+    padding: 5px;
+    letter-spacing: -1px;
+}
 
+.bookDets h4 {
+    margin: 0.3rem 0 0.1rem;
+    color: #80533f;
+}
+
+.bookCard {
+    background: #654b3b3c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.bookCard:hover {
+    transform: scale(1.03);
 }
 
 .bookCover {
-    height: 220px;
-    padding: 15px;
-    margin: auto;
-    display: block;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
 }
 
 .collection p {
