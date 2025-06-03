@@ -5,17 +5,15 @@
         "rating": 4.2,
         "avgRating": 3.93,
         "img": "img/eleanorPark.jpg",
-        "series": null,
         "summary": "Two misfit teens fall in love over comic books and mix tapes. Set in the 80s, it’s a heart-wrencher."
     },
     {
-        "title": "Harry Potter & the Half-Blood Prince",
-        "author": "J.K. Rowling",
-        "rating": 5,
-        "avgRating": 4.58,
-        "img": "img/harrypotterhalfblood.jpg",
-        "series": "(Harry Potter #6)",
-        "summary": "The war against Voldemort is not going well: even Muggle governments are noticing. Dumbledore is absent from Hogwarts for long stretches of time and the Order of the Phoenix already suffered losses. And yet..."
+        "title": "Reminders of Him",
+        "author": "Colleen Hoover",
+        "rating": 4,
+        "avgRating": 4.35,
+        "img": "img/remindersofhim.jpg",
+        "summary": "A troubled young mother yearns for a shot at redemption in this heartbreaking yet hopeful story. After serving five years in prison for a tragic mistake, Kenna Rowan returns to the town where it all went wrong, hoping to reunite with her four-year-old daughter. But the bridges Kenna burned are proving impossible to rebuild. Everyone in her daughter's life is determined to shut Kenna out, no matter how hard she works to prove herself. The only person who hasn't closed the door on her completely is Ledger Ward, a local bar owner and one of the few remaining links to Kenna's daughter. But if anyone were to discover how Ledger is slowly becoming an important part of Kenna's life, both would risk losing the trust of everyone important to them. The two form a connection despite the pressure surrounding them, but as their romance grows, so does the risk. Kenna must find a way to absolve the mistakes of her past in order to build a future out of hope and healing."
     },
     {
         "title": "They Both Die at the End",
@@ -23,7 +21,6 @@
         "rating": 4,
         "avgRating": 3.75,
         "img": "img/tbdate.jpg",
-        "series": null,
         "summary": "On September 5, a little after midnight, Death-Cast calls Mateo Torrez and Rufus Emeterio to give them some bad news: They're go die today. Mateo and Rufus are total stra but, for different reasons, t both looking to make a new friend on their End Day. The good news: There's an a that. It's called the Last Frien through it, Rufus and Mateo are about to meet up for one last great day."
     },
     {
@@ -32,7 +29,6 @@
         "rating": 5,
         "avgRating": 4.45,
         "img": "img/ignite.jpg",
-        "series": "(Shatter Me #3)",
         "summary": "With Omega Point destroyed, Juliette doesn't know if the rebels, her friends, or even Adam are alive. But that won't keep her from trying to take down The Reestablishment once and for all. Now she must rely on Warner, the handsome commander of Sector 45. The one person she never thought she could trust. The same person who saved her life. He promises to help Juliette master her powers and save their dying world... but that's not all he wants with her."
     },
     {
@@ -41,7 +37,6 @@
         "rating": 4.7,
         "avgRating": 4.11,
         "img": "img/awtwb.jpg",
-        "series": "(Simon Snow #3)",
         "summary": "Simon and Baz and Penelope and Agatha have to decide how to move forward. For Simon, that means deciding whether he still wants to be part of the World of Mages. And if he doesn't, what does that mean for his relationship with Baz? Meanwhile Baz is bouncing between two family crises and not finding any time to talk to anyone about his newfound vampire knowledge. Penelope would love to help, but she's smuggled an American Normal into London, and now she isn't sure what to do with him."
     },
     {
@@ -50,7 +45,6 @@
         "rating": 5,
         "avgRating": 4.47,
         "img": "img/acowar.jpg",
-        "series": "(A Court of Thorns and Glasses #3)",
         "summary": "Feyre has returned to the Spring Court, determined to gather information on Tamlin's actions and learn what she can about the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit. One slip could bring doom not only for Feyre, but for everything-and everyone-she holds dear. As war bears down upon them all, Feyre endeavors to take her place amongst the High Fae of the land, balancing her struggle to master her powers-both magical and political-and her love for her court and family. Amidst these struggles, Feyre and Rhysand must decide whom to trust amongst the cunning and lethal High Lords, and hunt for allies in unexpected places."
     },
     {
@@ -59,7 +53,6 @@
         "rating": 5,
         "avgRating": 4.45,
         "img": "img/lovedec.jpg",
-        "series": "(Love Deception #1)",
         "summary": "Catalina Martín desperately needs a date to her sister's wedding. Especially since her little white lie about her American boyfriend has spiralled out of control. Enter Aaron Blackford—her tall, handsome, condescending colleague—who surprisingly offers to step in. She'd rather refuse; never has there been a more aggravating, blood-boiling, and insufferable man. But Catalina is desperate, and as the wedding draws nearer, Aaron looks like her best option."
     },
     {
@@ -68,7 +61,6 @@
         "rating": 5,
         "avgRating": 4.55,
         "img": "img/heartstopper.jpg",
-        "series": "(Heartstopper #3)",
         "summary": "In this volume we'll see the Heartstopper gang go on a school trip to Paris! Not only are Nick and Charlie navigating a new city, but also telling more people about their relationship AND learning more about the challenges each other are facing in private... Meanwhile Tao and Elle will face their feelings for each other, Tara and Darcy share more about their relationship origin story, and the teachers supervising the trip seem... rather close...?"
     },
     {
@@ -77,7 +69,6 @@
         "rating": 4,
         "avgRating": 3.95,
         "img": "img/midnight.library.jpg",
-        "series": null,
         "summary": "Between life and death there is a library. When Nora Seed finds herself in the Midnight Library, she has a chance to make things right. Up until now, her life has been full of misery and regret. She feels she has let everyone down, including herself. But things are about to change. The books in the Midnight Library enable Nora to live as if she had done things differently. With the help of an old friend, she can now undo every one of her regrets as she tries to work out her perfect life. But things aren't always what she imagined they'd be, and soon her choices place the library and herself in extreme danger. Before time runs out, she must answer the ultimate question: what is the best way to live?"
     }
 ]
