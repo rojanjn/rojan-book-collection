@@ -35,8 +35,8 @@
     </header>
 
     <!-- book collection -->
-    <main class="collection">
-        <div class="bookCard">
+    <main class="collection" id="bookContainer">
+        <!-- <div class="bookCard">
             <h2 class="bookName">Eleanor &amp; Park</h2>
             <img class="bookCover" alt=" cover" src="img/eleanorPark.jpg">
             <div class="Bookauthor">
@@ -245,7 +245,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <!-- sign-up sheet -->
@@ -267,26 +267,7 @@
         <p class="copyright">Rojan Jafarnezhad &copy; 2025</p>
     </footer>
 
-    <script>
-        document.getElementById("signup-form").addEventListener("submit", function (event) {
-            event.preventDefault();
-
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-
-            const nameRegex = /^[A-Za-z\s]{2,}$/;
-
-            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-
-            if (!nameRegex.test(name) || !emailRegex.test(email)) {
-                document.getElementById("error-message").style.display = "block";
-            }
-            else {
-                document.getElementById("error-message").style.display = "none";
-                alert("Sign up successful!");
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
