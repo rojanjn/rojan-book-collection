@@ -90,16 +90,13 @@ h2 {
     margin-bottom: 0;
 }
 
-hr {
-    border: 2px solid #C38E70;
-    border-radius: 5px;
-}
-
 .collection {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .bookName {
@@ -126,60 +123,43 @@ hr {
 .bookCard {
     position: relative;
     overflow: hidden;
-    height: 100%;
-    min-height: 350px;
+    min-height: 420px;
     background: #654b3b3c;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.bookCard:hover .cardFront {
-    transform: translateY(100%);
-    opacity: 0;
-}
-
-.bookCard:hover .cardBack {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.cardFront,
-.cardBack {
-    position: absolute;
-    inset: 0;
-    padding: 1rem;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    backface-visibility: hidden;
 }
 
 .cardFront {
-    z-index: 2;
-    transform: translateY(0);
-    opacity: 1;
-    background-color: #fff;
+    position: relative;
+    z-index: 1;
     text-align: center;
 }
 
 .cardBack {
-    z-index: 1;
-    transform: translateY(-100%);
+    position: absolute;
+    inset: 0;
+    background-color: #251812e6;
+    color: #fffaeb;
     opacity: 0;
-    background-color: #fff;
+    transition: opacity 0.4s ease;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1rem;
+    z-index: 2;
+}
+
+.bookCard:hover .cardBack{
+    opacity: 1;
 }
 
 .bookCover {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
+    max-height: 300px;
     border-radius: 6px;
-    margin: 0.5rem 0;
+    margin-bottom: 1rem;
 }
 
 .author {
@@ -191,6 +171,7 @@ hr {
 
 .collection p {
     text-align: center;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     padding: 3px;
@@ -225,7 +206,7 @@ footer {
 #signup-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -253,4 +234,8 @@ footer {
 
 #signup-form button:hover {
     background-color: #B07D62;
+}
+
+hr {
+    border: solid 2px #251812;
 }
