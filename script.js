@@ -33,16 +33,31 @@ fetch("books.json")
     });
 
 // sign up js
-document.getElementById("signup-form").addEventListener("submit", function (event) {
-    event.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const nameRegex = /^[A-Za-z\s]{2,}$/;
-    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+const signUpFormValidation = () => {
+    document.getElementById("signup-form").addEventListener("submit", (event) => {
+        event.preventDefault();
 
-    if (!nameRegex.test(name) || !emailRegex.test(email)) {
-        alert("Invalid name or email.");
-    } else {
-        alert("Sign up successful!");
-    }
-});
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+
+        const nameRegex = /^[A-Za-z\s]{2,}$/;
+        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+        const errorMessage = document.getElementById("error-message");
+
+        if (!nameRegex.test(name) || !emailRegex.test(email)) {
+            errorMessage.style.display = "block";
+        } else {
+            errorMessage.style.display = "none";
+            alert("Sign up successful!");
+        }
+    });
+
+    // Hide error message on focus
+    ["name", "email"].forEach(id => {
+        document.getElementById(id).addEventListener("focus", () => {
+            document.getElementById("error-message").style.display = "none";
+        });
+    });
+};
+window.addEventListener("DOMContentLoaded", signUpFormValidation);
