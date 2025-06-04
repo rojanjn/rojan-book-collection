@@ -13,15 +13,17 @@
 
     <header>
         <div class="welcome">
-            <img src="img/rey-seven-_nm_mZ4Cs2I-unsplash.jpg" alt="vinyl" class="welcome-background">
+            <img src="img/rey-seven-_nm_mZ4Cs2I-unsplash.jpg" alt="book" class="welcome-background">
             <h1>Rojan's Books</h1>
             <h2>Welcome to my Book Collection!</h2>
         </div>
 
         <nav class="navBar">
             <ul class="navLinks">
-                <li><a class="navBtn" href="https://www.goodreads.com/user/show/95131325-rojan-jafarnejad" target="_blank">My GoodReads</a></li>
-                <li><a class="navBtn" href="https://github.com/rojanjn/rojan-book-collection/tree/main" target="_blank">Github Repo</a></li>
+                <li><a class="navBtn" href="https://www.goodreads.com/user/show/95131325-rojan-jafarnejad"
+                        target="_blank">My GoodReads</a></li>
+                <li><a class="navBtn" href="https://github.com/rojanjn/rojan-book-collection/tree/main"
+                        target="_blank">Github Repo</a></li>
                 <li><a class="navBtn" href="https://www.instagram.com/rojanartsy/" target="_blank">My Instagram</a></li>
             </ul>
         </nav>
@@ -33,11 +35,15 @@
     <section id="sign-up">
         <h2>Sign Up to Get the Latest Updates!</h2>
         <hr>
-        <form id="signup-form">
+
+        <form id="signup-form" autocomplete="off">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required autocomplete="off">
+
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required autocomplete="off">
+
+            <p id="error-message">Please enter a valid name and email address.</p>
             <button type="submit">Sign Up</button>
         </form>
     </section>
